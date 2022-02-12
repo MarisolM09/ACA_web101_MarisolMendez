@@ -1,0 +1,88 @@
+body {
+   background-color: #233a5e;
+}
+.resume-container {
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 8.5in;
+    height: 11in;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 18% 10% 70%;
+}
+.image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+h1 {
+    color: #4032ab;
+    font-size: 45pt;
+    padding-left: 15px;
+
+}
+.snowboarder {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #3e2cc9;
+    font-size: 15pt;
+}
+.info p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 15px;
+    padding-left: 15px;
+    color: #3e2cc9;
+    font-size: 15pt;
+}
+.contact {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: white;
+    background: linear-gradient(#3e2cc9, transparent), 
+    linear-gradient(to top left, #8073e6, transparent);
+    background-blend-mode: darken;
+    padding-top: 50px;
+
+}
+ul.contacts {
+    margin-bottom: 15px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    
+}
+.main-container {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-left: 15px;
+}
+h3 {
+    text-align: center;
+    margin: 30px;
+    font-size: 15pt;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    
+}
+h4 {
+    color: #3e2cc9;
+    font-size: 15pt;
+    margin: 0;
+}
+h5 {
+    font-size: 14pt;
+    margin: 0;
+    font-weight: 600;
+}
+.location {
+    margin: 0;
+    font-style: italic;
+}
+    
