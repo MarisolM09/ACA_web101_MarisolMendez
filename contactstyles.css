@@ -1,0 +1,72 @@
+body {
+   margin-top: 2.5%;
+    background: linear-gradient(#B0C1D9 50%, #D9BFA9 50%);
+}
+.container {
+    margin: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300pt 300pt;
+}
+
+.header {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 30pt;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.email {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 15pt;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+input {
+    padding-top: 50px;
+   
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.birthday {
+    padding-top: 20pt;
+}
+#fname, #lname, #email, textarea {
+    width: 100%; 
+    padding: 9px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+@media only screen and (max-width: 1088px)  {
+    .container {
+        margin: 0px; 
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        text-align: center;
+    }
+    
+  
+}

@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyles.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+             <h1>Contact Me</h1>
+             <p>Hi! looking forward to speaking with you.</p>
+         </div>
+         <div class="email">
+             <div class="input">
+                <label for="fname">First Name</label>
+                <br>
+                 <input type="text" id="fname" name="firstname">
+                   <br>
+                 <label for="lname">Last Name</label>
+                 <br>
+                 <input type="text" id="lname" name="lastname">
+                <br>
+                <label for="email">Enter your email:</label>
+                 <br>
+                 <input type="email" id="email" name="email">
+                 <br>
+                 <br>
+                <label for="comment">Comments</label>
+                 <br>
+                <textarea name="comment" form="usrform" rows="6" cols="30" ></textarea>
+             </div>
+
+         </div>
+         <div class="box1">
+             <p>How did you hear about me?</p>
+             <div id="checkbox">
+                <input type="checkbox" id="classmate" name="classmate"
+                       unchecked>
+                <label for="classmate">Classmate</label>
+              </div>
+              <div id="checkbox">
+                <input type="checkbox" id="resume submission" name="resume submission"
+                       unchecked>
+                <label for="resume submission">Resume Submission</label>
+              </div>
+              <div id="checkbox">
+                <input type="checkbox" id="LinkedIn" name="LinkedIn"
+                       unchecked>
+                <label for="LinkedIn">LinkedIn</label>
+              </div>
+              <div id="checkbox">
+                <input type="checkbox" id="Coding" name="Coding"
+                       unchecked>
+                <label for="Coding">Coding Academy Rec</label>
+              </div>
+         </div>
+         <div class="box2">
+          <p>Would you like to be contacted back?</p>
+          <div>
+            <input type="radio" id="box2" name="yes" value="yes" unchecked>
+            <label for="yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" id="box2" name="no" value="no" unchecked>
+            <label for="no">No</label>
+            <div class="Birthday">
+                <form>
+                    <label>
+                      Enter your birthday:
+                      <input type="date" name="bday">
+                    </label>
+                  
+                    <p><button>Submit</button></p>
+                  </form>
+                   
+            </div>
+          </div>
+         </div>
+    </div>
+</body>
+</html>
